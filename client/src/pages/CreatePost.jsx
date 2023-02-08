@@ -63,15 +63,15 @@ const CreatePost = () => {
             labelName="Your Name"
             type="text"
             name="name"
-            placeHolder="Villapaz, Earl"
+            placeholder="Villapaz, Earl"
             value={form.name}
             handleChange={handleChange}
           />
           <FormField 
             labelName="Prompt"
             type="text"
-            name="promt"
-            placeHolder="A Space Shuttle flying above Cape Town, digital art"
+            name="prompt"
+            placeholder="A Space Shuttle flying above Cape Town, digital art"
             value={form.prompt}
             handleChange={handleChange}
             handleSurpriseMe={handleSurpriseMe}

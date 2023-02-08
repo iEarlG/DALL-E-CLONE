@@ -1,10 +1,11 @@
 import React from 'react';
 
-const FormField = ({ labelName, type, placeHolder, name, value, HandleChange, handleSurpriseMe, isSurpriseMe  }) => {
+const FormField = ({ labelName, type, placeholder, name, value, HandleChange, handleSurpriseMe, isSurpriseMe }) => {
   return (
     <div>
       <div className="flex items-center gap-2 mb-2">
-        <label htmlFor={name} className="block text-sm font-medium text-gray-900">
+        <label htmlFor={name} className="block text-sm font-medium text-gray-900"
+        >
           {labelName}
         </label>
         {isSurpriseMe && (
@@ -22,7 +23,7 @@ const FormField = ({ labelName, type, placeHolder, name, value, HandleChange, ha
         type={type} 
         id={name} 
         name={name} 
-        placeholder={placeHolder} 
+        placeholder={placeholder} 
         value={value} 
         onChange={HandleChange} 
         className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-[#6469FF] 
