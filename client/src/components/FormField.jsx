@@ -1,6 +1,6 @@
 import React from 'react';
 
-const FormField = ({ labelName, type, placeholder, name, value, HandleChange, handleSurpriseMe, isSurpriseMe }) => {
+const FormField = ({ labelName, type, placeholder, name, value, handleChange, handleSurpriseMe, isSurpriseMe }) => {
   return (
     <div>
       <div className="flex items-center gap-2 mb-2">
@@ -25,7 +25,7 @@ const FormField = ({ labelName, type, placeholder, name, value, HandleChange, ha
         name={name} 
         placeholder={placeholder} 
         value={value} 
-        onChange={HandleChange} 
+        onChange={handleChange} 
         className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-[#6469FF] 
         focus:border-[#6469FF] outline-none block w-full p-3"
         required

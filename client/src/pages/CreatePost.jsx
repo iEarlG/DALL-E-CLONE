@@ -11,8 +11,18 @@ const CreatePost = () => {
   const [generatingImg, setGeneratingImg] = useState(false);
   const [loading, setLoading] = useState(false);
 
-  const handleSubmit = () => {
+  const handleSubmit = async (e) => {  
+    e.preventDefault();
 
+    if(form.prompt && form.photo) {
+      setLoading(true);
+
+      try { 
+
+      } catch (error) { 
+        
+      }
+    }
   }
   const handleChange = (e) => {
     setForm({ ...form, [e.target.name]: e.target.value });
@@ -42,7 +52,7 @@ const CreatePost = () => {
         setGeneratingImg(false);
       }
     } else { 
-      alert('Please enter a prompt');
+      alert('Please select a Prompt using the "Surprise Me" button or type your own prompt.');
     }
   }
 
