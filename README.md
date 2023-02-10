@@ -2,4 +2,4 @@
 
 <img src="https://user-images.githubusercontent.com/91045673/218023838-f9932c5b-5a5f-4540-82fa-3507dde134d2.png" />
 
-<p align="center">LINK</p>
+<p align="center">https://dall-e-2-clone.netlify.app/</p>
