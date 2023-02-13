@@ -1,5 +1,5 @@
-<h1 classname="bold"> Full-stack MERN AI Image Generator App that is inspired by MidJourney, DALL-E 2. <br> <br>Powered by refine.dev<br> </h1>
+<h1 classname="bold"> Full-stack MERN AI Image Generator App that is inspired by MidJourney, DALL-E 2. <br> <br>Powered by OPENAI API<br> </h1>
 
-<img src="https://user-images.githubusercontent.com/91045673/218452545-05a3da16-1263-4983-8fc1-f12f9b082d1b.jpg" />
+<img src="https://user-images.githubusercontent.com/91045673/218452998-83134ace-4e33-4b78-9c75-53111ca90a2e.png" />
 
-<p align="center">uploaded dashboard public link</p>
+<p align="center">https://dall-e-2-clone.netlify.app/</p>
