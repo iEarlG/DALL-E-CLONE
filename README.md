@@ -63,7 +63,7 @@ be updated so that the user experience is awesome.
 
 ### Useful resources
 
-- [Example resource 1](https://youtu.be/EyIvuigqDoA) - 
+- [JSM resource 1](https://youtu.be/EyIvuigqDoA) - 
 - [Example resource 2]() - 
 
 ## Author
