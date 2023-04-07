@@ -8,7 +8,7 @@ DALL-E 2 Clone is a website that offers an innovative AI-powered image generator
 ## Table of contents
 
 - [Introduction](#introduction)
-  - [What is ZipHired](#what-is-dall-e-2-clone)
+  - [What is DALL-E 2 CLONE](#what-is-dall-e-2-clone)
 - [Overview](#overview)
   - [Screenshot](#screenshot)
   - [Links](#links)
